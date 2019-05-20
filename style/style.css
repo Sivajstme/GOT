@@ -1,0 +1,163 @@
+
+*{
+    margin: 0;
+    padding: 0;
+
+}
+html,body{
+    max-width: 100%;
+    overflow-x: hidden;
+}
+html{
+    font-size: 62.5%;
+    
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+
+}
+.header-container{
+    min-height: 100vh;
+    width: 100%;
+
+
+}
+
+.header-logo{
+    width: 7em;
+    height: 8vh;
+    display: flex;
+    flex-direction: row;
+    color: rgb(105, 105, 105);
+    text-transform: uppercase;
+    position: fixed;
+    z-index: 2;
+
+}
+.header-logo ul li a{
+    text-decoration: none; 
+}
+
+.scroll{
+    color: rgb(105, 105, 105);
+}
+
+.active{
+    color: rgb(255, 255, 255);
+}
+.header-logo-image{
+    width: 7em;
+    color:black;
+    
+}
+.header-container-nav{
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    
+}
+.header-nav-li{
+    font-size: 1.6em;
+    margin: 1.3em 4em 0em 3em;
+}
+
+.header-images{
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    background-image: url(../assects/dragonfire.jpeg);
+    background-size: cover;
+    flex-direction: column;
+
+}
+
+.header-img-walkerChair{
+    margin-left: 55%;
+    margin-top: -3.7em;
+    position: relative;
+    z-index: 2;
+}
+.header-white-dragon{
+    position: absolute;
+    margin-left: -11em;
+    margin-top: 4em;
+    width: 30em;
+    z-index: 4;
+}
+.header-fire{
+    margin-top: -40.1em;
+    width: 100%;
+    height: 38em;
+    background-image: url(../assects/fireBackPara.png);
+    background-size: cover;
+}
+.whiteLegs{
+    position: absolute;
+    margin-top: 10.9em;
+    margin-left: 61.8%;
+    width: 57em;
+    height: 103em;
+}
+.gameTitle{
+    margin-top: -50%;
+}
+.zoomImage{
+    zoom: 1.1;
+}
+
+.header-title{
+    width: 87em;
+    height: 20em;
+    margin-top: 15em;
+    margin-left: 10em;
+    z-index: 3;
+    position: relative;
+}
+
+.Info--container{
+    width: 100%;
+    text-align:center;
+    height: 100vh;
+
+    background-color: black;
+
+
+}
+.info-text{
+    color: black;
+    font-size: 1.9em;
+    padding: 1em;
+
+
+
+}
+.info-text-background{
+    background-image: url(../assects/paraale.jpg);
+    width: 50%;
+    height: 60vh;
+    margin: 19em 35em;
+    background-size: cover;
+    background-attachment: fixed;
+
+
+}
+
+
+.houses-container{
+    width: 100%;
+    text-align:center;
+    height: 100vh; 
+
+    background-color: greenyellow;
+
+}
+
+
+.about-container{
+    width: 100%;
+    text-align:center;
+    height: 100vh; 
+    background-color: blue;
+}
