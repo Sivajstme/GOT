@@ -1,2 +1,2 @@
 # GOT 
-Sample Landing oage
+Sample Landing page
