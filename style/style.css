@@ -70,6 +70,7 @@ html{
     background-image: url(../assects/dragonfire.jpeg);
     background-size: cover;
     flex-direction: column;
+    background-repeat: no-repeat;
 
 }
 

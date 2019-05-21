@@ -52,3 +52,9 @@ function scrollParallel(element){
         pare.style.backgroundPositionY = -offSet * 0.2 + 'px';
     });
 //});
+
+window.addEventListener('scroll' , function () {
+    const para = document.querySelector('.header-images');
+    let offset = window.pageYOffset;
+    para.style.backgroundPositionY = -offset * 0.2 +'px';
+});
