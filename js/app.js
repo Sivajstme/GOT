@@ -48,7 +48,7 @@ function scrollParallel(element){
     window.addEventListener('scroll', function () {
         const pare = document.querySelector('.header-fire');
         //let el = document.querySelector(e);
-        let offSet = window.pageYOffset;
+        let offset = window.pageYOffset;
         pare.style.backgroundPositionY = -offSet * 0.2 + 'px';
     });
 //});
