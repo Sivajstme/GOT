@@ -56,5 +56,5 @@ function scrollParallel(element){
 window.addEventListener('scroll' , function () {
     const para = document.querySelector('.header-images');
     let offset = window.pageYOffset;
-    para.style.backgroundPositionY = -offset * 0.2 +'px';
+    para.style.backgroundPositionY = offset * 0.2 +'px';
 });
