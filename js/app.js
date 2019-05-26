@@ -52,29 +52,36 @@ function scrollParallel(element){
         pare.style.backgroundPositionY = -offSet * 0.2 + 'px';
     });
 //});*/
+/*
 function parallel (id){
     const ele = document.querySelector(id);
     let yHeight = window.pageXOffset;
-    ele.style.backgroundPosition  = yHeight * 0.6 + 'px';
+    ele.style.backgroundPosition  = -yHeight * 0.6 + 'px';
 }
 
 window.addEventListener('scroll',function(){
     parallel('.header-images');
+    parallel('.header-fire');
 });
+*/
 
-/*
+window.addEventListener('scroll', function () {
+    const para = document.querySelector('.header-title');
+    let offset = window.pageYOffset;
+    para.style.marginTop = offset * 0.8 + 'em';
+});
 window.addEventListener('scroll', function () {
     const para = document.querySelector('.header-images');
     let offset = window.pageYOffset;
-    para.style.backgroundPositionY = offset * 0.2 + 'px';
+    para.style.backgroundPositionY = offset * 0.4 + 'px';
 });
 
 
+/*
 
 window.addEventListener('scroll' , function () {
     const para = document.querySelector('.header-images');
     let offset = window.pageYOffset;
     para.style.backgroundPositionY = offset * 0.2 +'px';
 });
-
 */
