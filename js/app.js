@@ -41,17 +41,8 @@ function scrollParallel(element){
     console.log(offSet);
     el.style.backgroundPositionY = -offSet * 0.2 + 'px';
 
-} 
+} */
 
-//['.header-title', '.whiteLegs','.header-fire'].forEach(e => {
-
-    window.addEventListener('scroll', function () {
-        const pare = document.querySelector('.header-fire');
-        //let el = document.querySelector(e);
-        let offset = window.pageYOffset;
-        pare.style.backgroundPositionY = -offSet * 0.2 + 'px';
-    });
-//});*/
 
 
 window.addEventListener('scroll', function () {
