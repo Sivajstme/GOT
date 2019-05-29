@@ -11,7 +11,7 @@ $(document).ready(function(){
             var hash = this.hash;
             $('html,body').animate({
                 scrollTop : $(hash).offset().top
-            },1500, function () {
+            },2000, function () {
                 window.location.hash = hash;
             });
         };
@@ -33,25 +33,35 @@ $(document).ready(function(){
     })
 
 });
+
 /*
-function scrollParallel(element){
-    let el = document.querySelector(element);
-    console.log(el)
-    let offSet = window.pageYOffset;
-    console.log(offSet);
-    el.style.backgroundPositionY = -offSet * 0.2 + 'px';
-
-} */
-
-
-
 window.addEventListener('scroll', function () {
     const para = document.querySelector('.header-title');
     let offset = window.pageYOffset;
     para.style.marginTop = offset * 0.8 + 'em';
-});
+});*/
+
+
 window.addEventListener('scroll', function () {
+    /*
     const para = document.querySelector('.header-images');
     let offset = window.pageYOffset;
     para.style.backgroundPositionY = offset * 0.4 + 'px';
+    */
+    
+    parallel('.header-images', 0.8);
+    console.log(pageYOffset);
 });
+
+//to scroll next page 
+let scrollPage = ()=>{
+    let scrollPosition = pageYOffset;
+
+}
+
+let parallel = (id,speed)=>{
+
+    const para = document.querySelector(id);
+    const offset = window.pageYOffset;
+    para.style.backgroundPositionY = offset * speed + 'px';
+}
