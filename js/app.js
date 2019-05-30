@@ -49,13 +49,19 @@ window.addEventListener('scroll', function () {
     para.style.backgroundPositionY = offset * 0.4 + 'px';
     */
     
-    parallel('.header-images', 0.8);
+    parallel('.header-images', 0.9);
     console.log(pageYOffset);
+
 });
 
 //to scroll next page 
-let scrollPage = ()=>{
+let scrollPage = (element)=>{
+    //Have to add 
+
     let scrollPosition = pageYOffset;
+    let elment = document.querySelector(element).style.height;
+
+    //
 
 }
 

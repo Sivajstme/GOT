@@ -150,7 +150,7 @@ html{
     text-align:center;
     height: 100vh; 
 
-    background-color: greenyellow;
+    background-color: rgb(255, 255, 255);
 
 }
 
@@ -159,5 +159,5 @@ html{
     width: 100%;
     text-align:center;
     height: 100vh; 
-    background-color: blue;
+    background-color: rgb(0, 0, 0);
 }
